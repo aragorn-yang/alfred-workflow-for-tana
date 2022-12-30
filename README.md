@@ -1,5 +1,5 @@
 <h1 align="center">
-Alfred Workflow for Tana
+Alfred Workflow for Tana<br>
 <img src="https://img.shields.io/github/license/aragorn-yang/alfred-workflow-for-tana.svg" alt="License">
 </h1>
 
