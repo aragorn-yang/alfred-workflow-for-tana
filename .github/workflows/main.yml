@@ -11,6 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build an Alfred Workflow
+      id: alfred_builder
       # You may pin to the exact commit or the version.
       # uses: almibarss/build-alfred-workflow@557434a545657b1b5e7a7ed010de62ead21578cb
       uses: almibarss/build-alfred-workflow@v1.0.1
