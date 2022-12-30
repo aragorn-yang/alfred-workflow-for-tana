@@ -1,5 +1,5 @@
 import alfy from 'alfy';
-import process, { exit } from 'node:process';
+import process from 'node:process';
 
 const input = alfy.input;
 const envToken = process.env.apiToken;
@@ -13,7 +13,7 @@ if (!envToken) {
             subtitle: "into tana",
             arg: input,
             variables: {
-                demoVar: "a demo value",
+                // demoVar: "a demo value",
             },
         }
     ]);
